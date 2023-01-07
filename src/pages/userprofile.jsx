@@ -3,7 +3,6 @@ import { account } from "../appwrite/appwriteConfig";
 import { useNavigate, Link } from "react-router-dom";
 import '../components/styles.css'
 import Footer from "../components/footer";
-import Navbar from "../components/navbarSec";
 
 
 
