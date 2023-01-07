@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "QuickPeachy";
+    src: url('../assets/QuickPeachy.otf') format('otf'),
+         url('../assets/QuickPeachy.ttf') format('ttf'),
+         url('../assets/QuickPeachy.woff') format('woff'),
+  }
+
+
+.title-wrapper {
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #782224;
+    
+}
+
+.sub-text-wrapper {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #BA4440;
+}
+
+.button-secondary-wrapper {
+    font-size: 14px;
+}
+
+.cards-wrapper {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px #FCAAB8;
+    width: 264.65px;
+    height: 275.52px;
+    border-radius: 12px;
+}
+
+.banner-wrapper {
+    width: 218px;
+    height: 135px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+
+
+.img-wrapper {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px #FCAAB8;
+}
+
+.cards-wrapper:hover {
+    box-shadow: 6px 6px 0px 0px #FCAAB8;
+}
+
+
+.content-box-wrapper {
+    width: 969px;
+    height: 409px;
+    background: #FFFEFE;
+    border-radius: 12px;
+    box-shadow: 10px 10px 0px 0px #FCAAB8;
+}
+
+.content-box-wrapper:hover {
+    box-shadow: 6px 6px 0px 0px #FCAAB8;
+}
+
+.joinus-content-box-wrapper {
+    width: 965px;
+    height: 245px;
+    box-shadow: 6px 6px 0px 0px #FCAAB8;
+    background: #FFFEFE;
+    border-radius: 12px;
+}
+
+
+.joinus-content-box-wrapper:hover {
+    box-shadow: 2px 2px 0px 0px #FCAAB8;
+}
+
+.footer-box-wrapper {
+    box-sizing: border-box;
+    width: 969px;
+    height: 150px;
+    background: #FFFEFE;
+    border-top: 4px solid #FCAAB8;
+    border-right: 4px solid #FCAAB8;
+    border-left: 4px solid #FCAAB8;
+    border-radius: 30px 30px 0px 0px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+
+    color: #782224;
+}
+
+.form-card-wrapper {
+    width: 443.84px;
+    height: 485.97px;
+    box-shadow: 8px 8px 0px 0px #FCAAB8;
+    background: #FFFEFE;
+    border-radius: 12px;
+}
+
+.image-wrapper {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.name-input-wrapper {
+    width: 365.52px;
+    height: 50.67px;
+    background: #FEEEE8;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: none;
+}
