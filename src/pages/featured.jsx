@@ -1,5 +1,8 @@
 import Navbar from "../components/navbarSec";
 import Footer from "../components/footer";
+import Sunidhi from "../assets/sunidhi.jpg"
+import Navya from "../assets/navya.jpg"
+import Farida from "../assets/farida.jpg"
 
 function Featured() {
   return (
@@ -14,7 +17,7 @@ function Featured() {
       <div className="card-btn-wrapper mx-auto w-fit flex flex-col items-end justify-start">
       <div className="content-wrapper flex flex-row justify-center mt-16">
         <div className="cards-wrapper transition-all bg-white mx-12">
-          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"></div>
+          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"><img className="card-img" src={Sunidhi} alt="" /></div>
           <div className="card-title-wrapper ml-6 mt-2 text-md  font-semibold font-manrope text-[#BA4440] text-left">
             Meet Sunidhi🌟
           </div>
@@ -23,7 +26,7 @@ function Featured() {
           </div>
         </div>
         <div className="cards-wrapper transition-all bg-white mx-12">
-          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"></div>
+          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"><img className="card-img" src={Navya} alt="" /></div>
           <div className="card-title-wrapper ml-6 mt-2 text-md  font-semibold font-manrope text-[#BA4440] text-left">
             Meet Navya🤩
           </div>
@@ -32,7 +35,7 @@ function Featured() {
           </div>
         </div>
         <div className="cards-wrapper transition-all bg-white mx-12">
-          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"></div>
+          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"><img className="card-img" src={Farida} alt="" /></div>
           <div className="card-title-wrapper ml-6 mt-2 text-md  font-semibold font-manrope text-[#BA4440] text-left">
             Meet Farida✨
           </div>
@@ -43,7 +46,7 @@ function Featured() {
       </div>
       <div className="content-wrapper flex flex-row justify-center mt-16">
         <div className="cards-wrapper transition-all bg-white mx-12">
-          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"></div>
+          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"><img className="card-img" src={Sunidhi} alt="" /></div>
           <div className="card-title-wrapper ml-6 mt-2 text-md  font-semibold font-manrope text-[#BA4440] text-left">
             Meet Sunidhi🌟
           </div>
@@ -52,7 +55,7 @@ function Featured() {
           </div>
         </div>
         <div className="cards-wrapper transition-all bg-white mx-12">
-          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"></div>
+          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"><img className="card-img" src={Navya} alt="" /></div>
           <div className="card-title-wrapper ml-6 mt-2 text-md  font-semibold font-manrope text-[#BA4440] text-left">
             Meet Navya🤩
           </div>
@@ -61,7 +64,7 @@ function Featured() {
           </div>
         </div>
         <div className="cards-wrapper transition-all bg-white mx-12">
-          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"></div>
+          <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"><img className="card-img" src={Farida} alt="" /></div>
           <div className="card-title-wrapper ml-6 mt-2 text-md  font-semibold font-manrope text-[#BA4440] text-left">
             Meet Farida✨
           </div>
