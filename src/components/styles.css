@@ -122,3 +122,26 @@
     border-radius: 12px;
     border: none;
 }
+
+.profile-wrapper {
+    width: 1014.42px;
+    height: 787.87px;
+    /* box-shadow: 4px 4px 0px 0px #FCAAB8; */
+    background: #FFFEFE;
+    border-radius: 12px;
+}
+
+.profile-name-input-wrapper {
+    width: 678px;
+    height: 54px;
+    background: #FEEEE8;
+    border-radius: 12px;
+}
+
+.updated-profile-wrapper {
+    width: 896px;
+    height: 174px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FEEEE8;
+    border-radius: 6px;
+}
