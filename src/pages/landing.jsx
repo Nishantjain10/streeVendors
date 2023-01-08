@@ -12,7 +12,6 @@ function Landing() {
         <div className="App">
             <Navbar />
             <Hero />
-            <AddStore />
             <Issues />
             <Solution />
             <Join />
