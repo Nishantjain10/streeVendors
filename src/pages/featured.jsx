@@ -3,11 +3,30 @@ import Footer from "../components/footer";
 import Sunidhi from "../assets/sunidhi.jpg"
 import Navya from "../assets/navya.jpg"
 import Farida from "../assets/farida.jpg"
+import { Link } from "react-router-dom";
+
 
 function Featured() {
   return (
     <div className="featured-wrapper min-h-screen bg-sober-pink sm:container sm:mx-auto">
-      <Navbar />
+      <div className="sm:container sm:mx-auto nav-wrapper flex justify-center items-center">
+        <ul className="list-wrapper flex flex-row justify-around align-center mt-12">
+          <li className="list-items mx-12">
+          <Link className="" to={"/"}>
+            <button className="button-wrapper py-2 bg-white px-3 text-black border-2 rounded-sm border-slate-500 border-solid hover:bg-slate-50  hover:text-green-900 transition-all">Home🏠</button>
+          </Link>
+            </li>
+          <li className="list-items mx-12"><button className="button-wrapper py-2 px-3 rounded-sm bg-white hover:bg-slate-50 transition-all"><a className="" href="#issues">About Us✨</a></button></li>
+          <li className="list-items mx-12">
+          <Link className="" to={"/Featured"}>
+            <button className="button-wrapper py-2 px-3 rounded-sm bg-white hover:bg-slate-50 transition-all">Featured📃</button>
+          </Link>
+          </li>
+          <li className="list-items mx-12">
+            <button className="button-wrapper py-2 px-2 rounded-sm bg-white hover:bg-slate-50 transition-all">Attend Session🚀</button>
+            </li>
+        </ul>
+        </div>
       <div className="heading-wrapper text-[#782224] font-alice text-3xl mt-28 items-center flex justify-center">
         Featured Stories 💟
       </div>

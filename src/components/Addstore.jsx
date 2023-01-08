@@ -4,6 +4,7 @@ import Modal from 'react-modal';
 import Input from './Input';
 import stores from '../backend/stores';
 import { useState, useEffect } from "react";
+import './styles.css'
 
 const customStyles = {
   content: {
@@ -77,13 +78,17 @@ function AddStore() {
         contentLabel="Modal"
       >
         <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Add Store</h2>
-        <button onClick={closeModal}>Done</button>
-        <div>Enter details</div>
+        <button onClick={closeModal}>❌</button>
+        <div>Store Name:</div>
+        <div className="profile-name-input-wrapper w-fit mx-auto pt-8 pl-6">
+
+        </div>
         <form onSubmit={handleSubmit}>
-            <Input
+            <Input 
+              className = "profile-name-input-wrapper w-fit mx-auto pt-8 pl-6"
               name="title"
               type="text"
-              value={user.title}
+              // value={}
               placeholder={"Enter title"}
               handleInput={handleInput}
             />
@@ -121,7 +126,8 @@ function AddStore() {
               handleInput={handleInput}
             /> */}
             <br />
-            <input type="submit" value="Update" />
+            {/* <input type="submit" value="Update" onClick={closeModal}/> */}
+            <button type="submit" onClick={closeModal}>Save</button>
           </form>
       </Modal>
     </div>
