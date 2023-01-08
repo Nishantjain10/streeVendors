@@ -3,8 +3,8 @@ function Issues() {
       <div id="issues" className="sm:container sm:mx-auto justify-center items-center statement-wrapper mt-48">
          <div className="heading-wrapper text-[#782224] font-alice text-3xl items-center flex justify-center">
           Know what are the problem statements!</div>
-          <div className="sub-heading-wrapper text-[#BA4440] mt-5 w-[684px] text-center font-manrope font-semibold text-base mx-auto items-center flex justify-center">
-         “The unrecognizable worth of our Women Street vendors Subheading: Women street vendors are undoubtedly one of the most valuable aspects of our city's streets.”</div>
+          <div className="sub-heading-wrapper text-[#BA4440] mt-5 w-[484px] text-center font-manrope font-semibold text-base mx-auto items-center flex justify-center">
+         “The unrecognizable worth of our Women Street vendors, <br/> Women street vendors are undoubtedly one of the most valuable aspects of our city's streets.”</div>
         <div className="content-wrapper flex flex-row justify-center">
           <div className="cards-wrapper transition-all bg-white mt-24 mx-12">
             <div className="banner-wrapper bg-[#FFF1F3] mx-auto mt-6"></div>

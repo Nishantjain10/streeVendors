@@ -66,7 +66,9 @@ function AddStore() {
 
   return (
     <div>
-      <button onClick={openModal}>Add Store</button>
+      <button className="button-wrapper mt-20 mx-12 py-2 px-3 rounded-sm bg-white hover:bg-slate-50 transition-all" onClick={openModal}>
+            Add a Store🤩
+          </button>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}

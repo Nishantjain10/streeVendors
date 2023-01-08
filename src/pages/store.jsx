@@ -99,8 +99,6 @@ function Store() {
       <div className="heading-wrapper text-[#782224] font-alice text-4xl mt-28 items-center flex justify-center">
         Local Listed Stores 🏪
       </div>
-
-         <AddStore/> 
       <div className="sub-heading-wrapper text-[#BA4440] mt-5 w-[584px] text-center font-manrope font-semibold text-base mx-auto items-center flex justify-center">
         “The platform allows women to list their stores online, which helps to promote the local stores and potentially increase sales.”
       </div>
@@ -108,7 +106,7 @@ function Store() {
           <div className="card-secondary-wrapper transition-all bg-white mx-12">
             <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"></div>
             <div className="card-title-wrapper ml-6 mt-2 text-xl  font-semibold font-manrope text-[#BA4440] text-left">
-              Sneha Fashion Clothing
+            Sneha's Store
             </div>
             <div className="card-description-wrapper ml-6 mt-1 w-[250px] pb-2 text-base font-medium font-manrope text-[#BA4440] text-left">
               Category - Fashion & Wearables
@@ -126,7 +124,7 @@ function Store() {
           <div className="card-secondary-wrapper transition-all bg-white mx-12">
             <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"></div>
             <div className="card-title-wrapper ml-6 mt-2 text-xl  font-semibold font-manrope text-[#BA4440] text-left">
-              Sneha Fashion Clothing
+             Sneha's Store
             </div>
             <div className="card-description-wrapper ml-6 mt-1 w-[250px] pb-2 text-base font-medium font-manrope text-[#BA4440] text-left">
               Category - Fashion & Wearables
@@ -143,7 +141,7 @@ function Store() {
           <div className="card-secondary-wrapper transition-all bg-white mx-12">
             <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"></div>
             <div className="card-title-wrapper ml-6 mt-2 text-xl  font-semibold font-manrope text-[#BA4440] text-left">
-              Sneha Fashion Clothing
+            Sneha's Store
             </div>
             <div className="card-description-wrapper ml-6 mt-1 w-[250px] pb-2 text-base font-medium font-manrope text-[#BA4440] text-left">
               Category - Fashion & Wearables
@@ -160,7 +158,7 @@ function Store() {
           <div className="card-secondary-wrapper transition-all bg-white mx-12">
             <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"></div>
             <div className="card-title-wrapper ml-6 mt-2 text-xl  font-semibold font-manrope text-[#BA4440] text-left">
-              Sneha Fashion Clothing
+              Sneha's Store
             </div>
             <div className="card-description-wrapper ml-6 mt-1 w-[250px] pb-2 text-base font-medium font-manrope text-[#BA4440] text-left">
               Category - Fashion & Wearables
@@ -182,9 +180,7 @@ function Store() {
         </div>
         <div className="card-btn-wrapper mx-auto w-fit flex flex-col items-end justify-start">
         <div className="btn-wrapper flex justify-end ">
-          <button className="button-wrapper mt-20 mx-12 py-2 px-3 rounded-sm bg-white hover:bg-slate-50 transition-all">
-            Add a Store🤩
-          </button>
+        <AddStore/> 
           <button className="button-wrapper mt-20 py-2 px-3 rounded-sm bg-white hover:bg-slate-50 transition-all">
             🧡 LIKE
           </button>
