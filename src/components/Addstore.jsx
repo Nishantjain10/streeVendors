@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 import Input from './Input';
 import stores from '../backend/stores';
@@ -77,15 +76,14 @@ function AddStore() {
         style={customStyles}
         contentLabel="Modal"
       >
+        <div className='flex flex-row justify-between px-2 my-2'>
         <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Add Store</h2>
         <button onClick={closeModal}>❌</button>
-        <div>Store Name:</div>
-        <div className="profile-name-input-wrapper w-fit mx-auto pt-8 pl-6">
-
         </div>
+        <div>Store Name:</div>
         <form onSubmit={handleSubmit}>
             <Input 
-              className = "profile-name-input-wrapper w-fit mx-auto pt-8 pl-6"
+              className ="profile-name-input-wrapper px-4 mx-auto outline-[#BA4440] placeholder-[#BA4440] placeholder:font-medium placeholder:font-manrope placeholder:text-sm "
               name="title"
               type="text"
               // value={}

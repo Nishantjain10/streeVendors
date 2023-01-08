@@ -5,7 +5,7 @@ import '../components/styles.css'
 import Footer from "../components/footer";
 import AddStore from "../components/Addstore";
 import stores from "../backend/stores";
-import ListItem from "../components/listItem";
+import StoreCard from '../components/StoreCard'
 
 
 function Store() {
@@ -173,7 +173,7 @@ function Store() {
               
             {/* <ul>
       {stores.map((temp) =>
-        <ListItem key={temp.id} />
+        <StoreCard key={temp.id} />
       )}
     </ul> */}
             

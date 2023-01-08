@@ -4,7 +4,7 @@ import Sunidhi from "../assets/sunidhi.jpg"
 import Navya from "../assets/navya.jpg"
 import Farida from "../assets/farida.jpg"
 import { Link } from "react-router-dom";
-
+import shoppingBag from "../assets/shopping-bag.svg"
 
 function Featured() {
   return (
@@ -16,14 +16,18 @@ function Featured() {
             <button className="button-wrapper py-2 bg-white px-3 text-black border-2 rounded-sm border-slate-500 border-solid hover:bg-slate-50  hover:text-green-900 transition-all">Home🏠</button>
           </Link>
             </li>
-          <li className="list-items mx-12"><button className="button-wrapper py-2 px-3 rounded-sm bg-white hover:bg-slate-50 transition-all"><a className="" href="#issues">About Us✨</a></button></li>
           <li className="list-items mx-12">
-          <Link className="" to={"/Featured"}>
-            <button className="button-wrapper py-2 px-3 rounded-sm bg-white hover:bg-slate-50 transition-all">Featured📃</button>
+          <Link className="" to={"/Store"}>
+            <button className="button-wrapper py-2 px-3 rounded-sm bg-white hover:bg-slate-50 inline-flex transition-all">Store<img src={shoppingBag} className = "w-[30px] px-1" alt="" /></button>
           </Link>
           </li>
           <li className="list-items mx-12">
-            <button className="button-wrapper py-2 px-2 rounded-sm bg-white hover:bg-slate-50 transition-all">Attend Session🚀</button>
+          <Link className="" to={"/Signup"}>
+            <button className="button-wrapper py-2 px-3 rounded-sm bg-white hover:bg-slate-50 transition-all">Join Us🚀</button>
+            </Link>
+            </li>
+          <li className="list-items mx-12">
+            <button className="button-wrapper py-2 px-2 rounded-sm bg-white hover:bg-slate-50 transition-all">Attend Session✨</button>
             </li>
         </ul>
         </div>
