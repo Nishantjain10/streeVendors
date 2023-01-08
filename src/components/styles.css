@@ -78,6 +78,13 @@
     border-radius: 12px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
+.card-img-store {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    border-radius: 12px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
 
 .cards-wrapper:hover {
     box-shadow: 6px 6px 0px 0px #FCAAB8;

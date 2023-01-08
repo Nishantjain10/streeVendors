@@ -104,7 +104,7 @@ function Store() {
       </div>
         <div className="content-wrapper flex flex-row justify-center mt-24">
           <div className="card-secondary-wrapper transition-all bg-white mx-12">
-            <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"></div>
+            <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"><img className="card-img-store" src="https://cdn.discordapp.com/attachments/1046322779877822475/1061571933923180635/19dfb62ca09eed3aba06a02e4dbb82b6.jpg" alt="" /></div>
             <div className="card-title-wrapper ml-6 mt-2 text-xl  font-semibold font-manrope text-[#BA4440] text-left">
             Sneha's Store
             </div>
@@ -122,7 +122,7 @@ function Store() {
         
 
           <div className="card-secondary-wrapper transition-all bg-white mx-12">
-            <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"></div>
+            <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"><img className="card-img-store" src="https://cdn.discordapp.com/attachments/1046322779877822475/1061571933923180635/19dfb62ca09eed3aba06a02e4dbb82b6.jpg" alt="" /></div>
             <div className="card-title-wrapper ml-6 mt-2 text-xl  font-semibold font-manrope text-[#BA4440] text-left">
              Sneha's Store
             </div>
@@ -139,7 +139,7 @@ function Store() {
         </div>
         <div className="content-wrapper flex flex-row justify-center mt-16">
           <div className="card-secondary-wrapper transition-all bg-white mx-12">
-            <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"></div>
+            <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"><img className="card-img-store" src="https://cdn.discordapp.com/attachments/1046322779877822475/1061571933923180635/19dfb62ca09eed3aba06a02e4dbb82b6.jpg" alt="" /></div>
             <div className="card-title-wrapper ml-6 mt-2 text-xl  font-semibold font-manrope text-[#BA4440] text-left">
             Sneha's Store
             </div>
@@ -156,7 +156,7 @@ function Store() {
         
 
           <div className="card-secondary-wrapper transition-all bg-white mx-12">
-            <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"></div>
+            <div className="banner-wrapper-secondary bg-[#FFF1F3] mx-auto mt-6"><img className="card-img-store" src="https://cdn.discordapp.com/attachments/1046322779877822475/1061571933923180635/19dfb62ca09eed3aba06a02e4dbb82b6.jpg" alt="" /></div>
             <div className="card-title-wrapper ml-6 mt-2 text-xl  font-semibold font-manrope text-[#BA4440] text-left">
               Sneha's Store
             </div>
