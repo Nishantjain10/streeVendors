@@ -3,7 +3,9 @@ import { account } from "../appwrite/appwriteConfig";
 import { useNavigate, Link } from "react-router-dom";
 import '../components/styles.css'
 import Footer from "../components/footer";
-
+import AddStore from "../components/Addstore";
+import stores from "../backend/stores";
+import ListItem from "../components/listItem";
 
 
 function Store() {
@@ -34,10 +36,31 @@ function Store() {
     };
 
 
+    console.log(stores[0].address);
+    
+    const titles=[];
+    for(let i=0; i<stores.length; i++){
+      titles.push(stores[i].title);
+    }
+
+    const address=[];
+    for(let i=0; i<stores.length; i++){
+      address.push(stores[i].address);
+    }
+
+    const category=[];
+    for(let i=0; i<stores.length; i++){
+      category.push(stores[i].title);
+    }
+      
+      // storeList.push(
+      //   <ListItem props = {stores[i]}/>
+      // )
 
 
 
   return (
+
     <div className="featured-wrapper min-h-screen bg-sober-pink sm:container sm:mx-auto">
       <div className="sm:container sm:mx-auto nav-wrapper flex justify-center items-center">
         <ul className="list-wrapper flex flex-row justify-around w-fit mx-auto align-center mt-12">
@@ -76,6 +99,8 @@ function Store() {
       <div className="heading-wrapper text-[#782224] font-alice text-4xl mt-28 items-center flex justify-center">
         Local Listed Stores 🏪
       </div>
+
+         <AddStore/> 
       <div className="sub-heading-wrapper text-[#BA4440] mt-5 w-[584px] text-center font-manrope font-semibold text-base mx-auto items-center flex justify-center">
         “The platform allows women to list their stores online, which helps to promote the local stores and potentially increase sales.”
       </div>
@@ -95,6 +120,7 @@ function Store() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quisquam in recusandae voluptates ex corrupti sint reiciendis ea ad autem.
             </div>
           </div>
+          
         
 
           <div className="card-secondary-wrapper transition-all bg-white mx-12">
@@ -146,6 +172,13 @@ function Store() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quisquam in recusandae voluptates ex corrupti sint reiciendis ea ad autem.
             </div>
             </div>
+              
+            {/* <ul>
+      {stores.map((temp) =>
+        <ListItem key={temp.id} />
+      )}
+    </ul> */}
+            
         </div>
         <div className="card-btn-wrapper mx-auto w-fit flex flex-col items-end justify-start">
         <div className="btn-wrapper flex justify-end ">

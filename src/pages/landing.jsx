@@ -4,6 +4,7 @@ import Issues from "../components/issues";
 import Solution from "../components/solution";
 import Join from "../components/joinus"
 import Footer from "../components/footer";
+import AddStore from "../components/Addstore";
 
 function Landing() {
   return (
@@ -11,6 +12,7 @@ function Landing() {
         <div className="App">
             <Navbar />
             <Hero />
+            <AddStore />
             <Issues />
             <Solution />
             <Join />
