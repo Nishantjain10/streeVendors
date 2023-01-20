@@ -1,10 +1,10 @@
 # StreeVendors
 
-## To check deployment, visit this link 👉 [StreeVendors](https://stree-vendors.vercel.app/)
+## Visit the project deployment 👉 [StreeVendors](https://stree-vendors.vercel.app/)
 
 # About StreeVenders
 
-- StreeVendors is a web app which focusses on the the unrecognizable worth of our Women Street vendors.
+- A platform connecting women-owned local stores with shoppers looking to support small businesses in their community.
 
 - The goal of this project is to increase the representation and success of women entrepreneurs in the business world.
 
